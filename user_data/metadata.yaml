@@ -1,0 +1,6 @@
+framework:
+  - name: tensorflow
+  - version: 1.12.0
+  - runtime: python2.7
+entry_point: tensorflow_test.py
+output_folder: training_result

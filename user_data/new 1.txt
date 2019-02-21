@@ -1,0 +1,197 @@
+{
+    "token": {
+        "is_domain": false,
+        "methods": [
+            "password"
+        ],
+        "roles": [
+            {
+                "id": "b57680c826b44b5ca6122d0f792c3184",
+                "name": "Member"
+            },
+            {
+                "id": "3a7bd258345f47479a26aea11a6cc2bb",
+                "name": "admin"
+            }
+        ],
+        "expires_at": "2018-05-11T04:22:47.000000Z",
+        "project": {
+            "domain": {
+                "id": "default",
+                "name": "Default"
+            },
+            "id": "3a705b9f56bb439381b43c4fe59dccce",
+            "name": "admin"
+        },
+        "catalog": [
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/identity",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "30a91932e4e94a8ca4dc145bb1bb6b4b"
+                    },
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/identity",
+                        "region": "RegionOne",
+                        "interface": "admin",
+                        "id": "94d4768735104c9091f0468e7d31c189"
+                    }
+                ],
+                "type": "identity",
+                "id": "09af9253500b41ef976a07322b2fa388",
+                "name": "keystone"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/volume/v2/3a705b9f56bb439381b43c4fe59dccce",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "1c4ffe935e7643d99b55938cb12bc38d"
+                    }
+                ],
+                "type": "volumev2",
+                "id": "413a44234e1a4c3781d4a3c7a7e4c895",
+                "name": "cinderv2"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/image",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "33237fdd1a744d0fb40f9127f21ddad4"
+                    }
+                ],
+                "type": "image",
+                "id": "4d473252145546d2aa589605f1e177c7",
+                "name": "glance"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/placement",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "1a421e2f97684d3f86ab4d2cc9c86362"
+                    }
+                ],
+                "type": "placement",
+                "id": "5dcecbdd4a1d44d0855c560301b27bb5",
+                "name": "placement"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/compute/v2.1",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "8e7ea663cc41477c9629cc710bbb1c7d"
+                    }
+                ],
+                "type": "compute",
+                "id": "87d49efa8fb64006bdb123d223ddcae2",
+                "name": "nova"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/volume/v1/3a705b9f56bb439381b43c4fe59dccce",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "97a2c0ac7e304316a1eb58a3757e6ef8"
+                    }
+                ],
+                "type": "volume",
+                "id": "9408080f1970482aa0e38bc2d4ea34b7",
+                "name": "cinder"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25:8080/v1/AUTH_3a705b9f56bb439381b43c4fe59dccce",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "d0d823615b0747a9aeca8b83fba105f0"
+                    },
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25:8080",
+                        "region": "RegionOne",
+                        "interface": "admin",
+                        "id": "e4cb86d9232349f091e0a02390deeb79"
+                    }
+                ],
+                "type": "object-store",
+                "id": "957ba1fe8b0443f0afe64bfd0858ba5e",
+                "name": "swift"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25:9696/",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "aa4a0e61cdc54372967ee9e2298f1d53"
+                    }
+                ],
+                "type": "network",
+                "id": "960fbc66bfcb4fa7900023f647fdc3a5",
+                "name": "neutron"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/volume/v3/3a705b9f56bb439381b43c4fe59dccce",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "0c38045a91c34d798e0d2008fee7521d"
+                    }
+                ],
+                "type": "volumev3",
+                "id": "98adb083914f423d9cb74ad5527e37cb",
+                "name": "cinderv3"
+            },
+            {
+                "endpoints": [
+                    {
+                        "region_id": "RegionOne",
+                        "url": "http://10.3.150.25/compute/v2/3a705b9f56bb439381b43c4fe59dccce",
+                        "region": "RegionOne",
+                        "interface": "public",
+                        "id": "562e12b9ee9549e8b857218ccf2ae321"
+                    }
+                ],
+                "type": "compute_legacy",
+                "id": "a31e688016614430b28cddddf12d7b88",
+                "name": "nova_legacy"
+            },
+
+        ],
+        "user": {
+            "password_expires_at": null,
+            "domain": {
+                "id": "default",
+                "name": "Default"
+            },
+            "id": "9a7e43333cc44ef4b988f05fc3d3a49d",
+            "name": "admin"
+        },
+        "audit_ids": [
+            "-aQD07BbTESwtU0x8J9o2A"
+        ],
+        "issued_at": "2018-05-11T03:22:47.000000Z"
+    }
+}

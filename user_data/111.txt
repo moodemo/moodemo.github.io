@@ -1,0 +1,1 @@
+https://ai-model-public.obs.cn-north-1.myhuaweicloud.com:443/demo/tensorflow_test_with_output.zip

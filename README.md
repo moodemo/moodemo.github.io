@@ -35,7 +35,7 @@ model:
 entry_point: training_test.py
 output_folder: training_result
 ```
-
+test
 Once the ZIP file or the ZIP link is submitted, You will receive an IP address
 of the VM which is running your training or inference task. Once the task is
 down, you can receive an URL where you can get the task's result, and the
